@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    display: flex;
+    margin-top: 64px;
+    margin-left: 165px;
+    margin-right: 164px;
+    margin-bottom: 54px;
+    height: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 90px;
+    height: 70px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #33323D;
+    margin-left: 42px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header ul li a:hover {
+    color: #5FB4A2;
+}
+
+.navegar {
+    display: flex;
+
+
+    align-items: center;
+    margin-left: 165px;
+    margin-top: 60px;
+    width: 1110px;
+    height: 132px;
+}
+
+.anterior {
+    position: absolute;
+    margin-left: 32px;
+    width: 162px;
+    height: 66px;
+
+}
+
+.titulo4 a {
+    color: rgba(51, 50, 61, 1);
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.paragrafo5 {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(51, 50, 61, 0.5);
+}
+
+.proximo {
+    margin-left: 936px;
+    width: 162px;
+    height: 66px;
+
+}
+
+.titulo5 a {
+    color: rgba(51, 50, 61, 1);
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.paragrafo6 {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(51, 50, 61, 0.5);
+}
+
+.contato {
+
+    position: absolute;
+    margin-top: 150px;
+
+    width: 1440px;
+    height: 314px;
+
+}
+
+.acesso {
+    display: flex;
+    margin-left: 165px;
+    margin-right: 165px;
+
+    width: 1110px;
+    height: 84px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto {
+    display: flex;
+    width: 367px;
+    height: 84px;
+    color: #33323D;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+}
+
+.botaocontato {
+    width: 168px;
+    height: 48px;
+    border: 1px solid #33323D;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.botaocontato:hover {
+    background-color: #33323D;
+}
+
+.botaocontato a {
+    display: flex;
+    margin-top: 13px;
+
+    justify-content: center;
+    text-decoration: none;
+    color: #33323D;
+    font-size: 15px;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.botaocontato a:hover {
+    color: rgba(250, 250, 250, 1);
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    background-color: #33323D;
+    margin-top: 150px;
+
+    height: 80px;
+}
+
+.barralogo {
+    display: flex;
+    width: 62px;
+    height: 32px;
+    margin-left: 165px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-image: url(../assets/logo-light.svg);
+    background-size: cover;
+}
+
+.barra ul {
+    list-style: none;
+    display: flex;
+}
+
+.barra ul li a {
+    margin-left: 48px;
+    margin-right: 42px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}
+
+.barraredes {
+    margin-right: 165px;
+    display: flex;
+    position: absolute;
+    margin-left: 1161px;
+}
+
+
+.barraredes ol {
+    display: flex;
+    list-style: none;
+
+}
+
+.barra ol li a {
+    align-items: center;
+    margin-left: 15px;
+    width: 104px;
+    height: 24px;
+
+}
+
+.barra ul li a:hover {
+    margin-left: 48px;
+    margin-right: 42px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #5FB4A2;
+
+}
