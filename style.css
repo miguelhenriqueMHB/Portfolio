@@ -102,7 +102,7 @@ margin-top: 100px;
 
 }
 
-.buttonn a{
+.buttonn {
  
     text-decoration: none;
     color: black;
@@ -129,4 +129,40 @@ margin-top: 100px;
     margin-right: 20px;
     width: 100%;
     height: 100px;
+}
+.language{
+    width: 140px;
+    height: 148px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(assets/brasil.png);
+    margin-right: 10px;
+    will-change: transform;
+    transition: transform 450ms;
+}
+.language2{
+    padding: 0;
+    width: 140px;
+    height: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(assets/reino-unido.png);
+    will-change: transform;
+    transition: transform 450ms;
+}
+.alinhar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.language:hover{
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    opacity: 0.8;
+}
+.language2:hover{
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    opacity: 0.8;
 }

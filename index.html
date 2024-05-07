@@ -9,80 +9,122 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Public+Sans:wght@100&display=swap" rel="stylesheet">
-   
+
 </head>
 
 <body>
     <div class="container text-center">
-       
-
         <div class="row align">
-            <div class="col-md-12 background">
-                <div class="teste"></div>
-                <h1 class="display-3 text-white mt-5 "><Span class="manchete">Bem vindo ao Meu Portfólio</Span></h1>
-                <div class="card">
-                    <p class="card-text  font">Olá! Sou Miguel Borges, um desenvolvedor web apaixonado e colaborativo com experiência em HTML, CSS, JavaScript e frameworks como TypeScript, Node.js, React.js e Vue.js. Combinando habilidades técnicas com criatividade, busco constantemente novos desafios para impulsionar a inovação.
+            <div class="col-md-6 background">
+                <h1 class="display-3 text-white mt-5"><span class="manchete" id="idioma-text">Idiomas</span></h1>
+                <div class="row alinhar">
+                    <div onclick="switchLanguage('portuguese')" class="language">
+                       
+                    </div>
+                    <div onclick="switchLanguage('english')" class="language2">
                         
-                        Além disso, sou um comunicador eficaz e um entusiasta da colaboração em equipe. Fora do desenvolvimento web, sou um explorador ávido, sempre em busca de novas aventuras e experiências.
-                        
-                        Estou pronto para contribuir com minha energia criativa e habilidades técnicas para projetos empolgantes. Vamos trabalhar juntos para alcançar grandes resultados!</p>
                     </div>
                 </div>
-                
-                
+                <div class="teste"></div>
+                <h1 class="display-3 text-white mt-5"><span class="manchete" id="titulo-text">Bem vindo ao Meu Portfólio</span></h1>
+                <div class="card">
+                    <p class="card-text  font" id="portfolio-text">Olá! Sou Miguel Borges, um desenvolvedor web apaixonado e colaborativo com experiência em HTML, CSS, JavaScript e frameworks como TypeScript, Node.js, React.js e Vue.js. Combinando habilidades técnicas com criatividade, busco constantemente novos desafios para impulsionar a inovação. Além disso, sou um comunicador eficaz e um entusiasta da colaboração em equipe. Fora do desenvolvimento web, sou um explorador ávido, sempre em busca de novas aventuras e experiências. Estou pronto para contribuir com minha energia criativa e habilidades técnicas para projetos empolgantes. Vamos trabalhar juntos para alcançar grandes resultados!</p>
+                </div>
             </div>
             <div class="teste2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="grupo1">
-                           
-                            <div class="menu">
-                                <p class="titulo">MoneyFlix</p>
-                                <p class="paragrafo">Esse projeto me fez criar um controle de finanças, responsivo de acordo com o design que
-                                    recebi. Usei HTML5, CSS Grid e JavaScript para as áreas interativas.
-                                </p>
-                                <div class="buttonn"><a href="https://front-integral-m05-t10-fawn.vercel.app/">VER PROJETO</a></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="grupo1">
+                                    <div class="menu">
+                                        <p class="titulo">MoneyFlix</p>
+                                        <p class="paragrafo"><span id="paragrafo-text">Esse projeto me fez criar um controle de finanças, responsivo de acordo com o design que
+                                            recebi. Usei HTML5, CSS Grid e JavaScript para as áreas interativas.</span>
+                                        </p>
+                                        <a href="https://front-integral-m05-t10-fawn.vercel.app/" class="buttonn" id="ver1">VER PROJETO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="grupo1">
+                                    <div class="menu">
+                                        <p class="titulo">TemplateStore</p>
+                                        <p class="paragrafo"><span id="paragrafo2-text">Nosso template de loja oferece uma solução simplificada e elegante para criar uma loja online.Proporcionando uma experiência de compra intuitiva e eficiente.</span></p>
+                                        <a href="https://template-store-one.vercel.app//" class="buttonn" id="ver2">VER PROJETO</a>
+                                    </div>
+                                    <div class="menu" id="quatro"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="grupo1">
-                            <div class="menu">
-                                <p class="titulo">TemplateStore</p>
-                                <p class="paragrafo">Nosso template de loja oferece uma solução simplificada e elegante para criar uma loja online. Com design moderno e responsivo, destaca seus produtos em dispositivos móveis. Inclui recursos essenciais, como carrinho de compras e opções de pagamento seguro. Ideal para iniciantes, proporcionando uma experiência de compra intuitiva e eficiente.</p>
-                                <div class="buttonn"><a href="https://template-store-one.vercel.app/">VER PROJETO</a></div>
+
+                <div class="card">
+                    <div class="col-md-12">
+                        <p class="lead" id="lead-text">Interessado em fazer projetos comigo?</p>
+                        <p class="font" id="font-text">Entre em contato por alguma dessas plataformas!</p>
+                        <div class="contato">
+                            <div class="juntos">
+                                <a href="https://github.com/miguelhenriqueMHB"><img src="assets/icons/github-dark.svg" alt=""></a>
+                                <a href="https://wa.me/5516992834769"><img src="assets/social.png" width="30" height="30" alt=""></a>
+                                <a href="https://www.linkedin.com/in/mhbc/"><img src="assets/icons/linkedin-dark.svg" alt=""></a>
                             </div>
-                            <div class="menu" id="quatro"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-       
-        <div class="card">
-        <div class="col-md-12">
-            <p class="lead">Interessado em fazer projetos comigo?</p>
-            <p class="font">Entre em contato por alguma dessas plataformas!</p>
-            <div class="contato">
-                <div class="juntos">
-                <a href="https://github.com/miguelhenriqueMHB"><img src="assets/icons/github-dark.svg" alt=""></a>
-                <a href="https://wa.me/5516992834769"><img src="assets/social.png" width="30" height="30" alt=""></a>
-                <a href="https://www.linkedin.com/in/mhbc/"><img src="assets/icons/linkedin-dark.svg" alt=""></a>
-            </div>
-            </div>
-        </div>
-    </div>
-</div> 
     </div>
 
     <!-- Bootstrap JS e dependências opcionais -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Verifica se já há uma preferência de idioma salva
+            var language = localStorage.getItem("language");
+            if (language) {
+                switchLanguage(language);
+            }
+        });
+
+        function switchLanguage(language) {
+            // Define o idioma selecionado
+            localStorage.setItem("language", language);
+
+            // Atualiza os textos conforme o idioma selecionado
+            if (language === 'portuguese') {
+                document.getElementById('idioma-text').innerHTML = "Idiomas";
+                document.getElementById('titulo-text').innerHTML = "Bem vindo ao Meu Portfólio";
+                document.getElementById('portfolio-text').innerHTML = "Olá! Sou Miguel Borges, um desenvolvedor web apaixonado e colaborativo com experiência em HTML, CSS, JavaScript e frameworks como TypeScript, Node.js, React.js e Vue.js. Combinando habilidades técnicas com criatividade, busco constantemente novos desafios para impulsionar a inovação. Além disso, sou um comunicador eficaz e um entusiasta da colaboração em equipe. Fora do desenvolvimento web, sou um explorador ávido, sempre em busca de novas aventuras e experiências. Estou pronto para contribuir com minha energia criativa e habilidades técnicas para projetos empolgantes. Vamos trabalhar juntos para alcançar grandes resultados!";
+                document.getElementById('paragrafo-text').innerHTML = "Esse projeto me fez criar um controle de finanças, responsivo de acordo com o design que recebi. Usei HTML5, CSS Grid e JavaScript para as áreas interativas.";
+                document.getElementById('paragrafo2-text').innerHTML = "Nosso template de loja oferece uma solução simplificada e elegante para criar uma loja online. Proporcionando uma experiência de compra intuitiva e eficiente.";
+                document.getElementById('ver1').innerHTML = "VER PROJETO";
+                document.getElementById('ver2').innerHTML = "VER PROJETO";
+                document.getElementById('ver1').setAttribute("href", "https://front-integral-m05-t10-fawn.vercel.app/");
+                document.getElementById('ver2').setAttribute("href", "https://template-store-one.vercel.app/");
+                document.getElementById('lead-text').innerHTML = "Interessado em fazer projetos comigo?";
+                document.getElementById('font-text').innerHTML = "Entre em contato por alguma dessas plataformas!";
+            } else if (language === 'english') {
+                document.getElementById('idioma-text').innerHTML = "Languages";
+                document.getElementById('titulo-text').innerHTML = "Welcome to My Portfolio";
+                document.getElementById('portfolio-text').innerHTML = "Hello! I'm Miguel Borges, a passionate and collaborative web developer with experience in HTML, CSS, JavaScript, and frameworks like TypeScript, Node.js, React.js, and Vue.js. Combining technical skills with creativity, I'm constantly seeking new challenges to drive innovation. Additionally, I'm an effective communicator and a team collaboration enthusiast. Outside web development, I'm an avid explorer, always seeking new adventures and experiences. I'm ready to contribute my creative energy and technical skills to exciting projects. Let's work together to achieve great results!";
+                document.getElementById('paragrafo-text').innerHTML = "This project made me create a responsive financial control according to the design that I received. I used HTML5, CSS Grid and JavaScript for the interactive areas.";
+                document.getElementById('paragrafo2-text').innerHTML = "Our store template offers a simplified and elegant solution for creating an online store. Providing an intuitive and efficient shopping experience.";
+                document.getElementById('ver1').innerHTML = "SEE PROJECT";
+                document.getElementById('ver2').innerHTML = "SEE PROJECT";
+                document.getElementById('ver1').setAttribute("href", "https://front-integral-m05-t10-fawn.vercel.app/");
+                document.getElementById('ver2').setAttribute("href", "https://template-store-one.vercel.app/");
+                document.getElementById('lead-text').innerHTML = "Interested in doing projects with me?";
+                document.getElementById('font-text').innerHTML = "Get in touch on any of these platforms!";
+            }
+        }
+    </script>
 </body>
 
 </html>
